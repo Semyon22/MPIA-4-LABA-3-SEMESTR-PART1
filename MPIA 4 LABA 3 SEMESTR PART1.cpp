@@ -30,8 +30,8 @@ void measure_time(string first,string second) {
 }
 
 int main(int argc, char* argv[]) {
-    int M = 19000 * 2;
-    int N = 19000 * 2;
+    int M = 150000;
+    int N = 150000;
     
     string first = generateRandomString(N);
     string second = generateRandomString(M);
